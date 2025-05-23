@@ -10,3 +10,4 @@ export default {
   require('tailwind-scrollbar'),
   ],
 };
+// intoroduced by us in the starting to handle all the source files

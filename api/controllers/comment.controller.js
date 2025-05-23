@@ -100,7 +100,8 @@ export const deleteComment = async (req, res, next) => {
         errorHandler(403, "You are not allowed to delete this comment")
       );
     }
-    await Comment.findByIdAndDelete(req.params.commentId);
+    await Comment.findByIdAndDelete(req.params.commentId); // this line delete DELETE /comments/:commentId
+
     res.status(200).json("Comment has been deleted");
   } catch (error) {
     next(error);

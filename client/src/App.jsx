@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { BrowserRouter ,Routes,Route} from 'react-router-dom';
 import Home from './pages/Home';
@@ -46,4 +47,18 @@ export default function App() {
   );
 }
 
+/*
+this is what is called a react functional component which is defined as a function that returns a react element 
+and is used to create a component in react also known as a stateless component or presentational component. 
+stateless means that it does not manage its own state and is only responsible for rendering the UI based on the props it receives. 
+functional components are simpler and easier to read than class components, making them a popular choice for building user interfaces in react.
+they can also use hooks to manage state and side effects, allowing them to have similar functionality to class components without the complexity.  
+import React from 'react'
+
+export default function App() {
+  return (
+    <div>App</div>
+  )
+}
+*/
 

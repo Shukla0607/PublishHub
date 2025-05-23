@@ -11,7 +11,7 @@ export const test = (req, res) => {
 //another file to handle this
 export const updateUser = async (req, res, next) =>
 {
-    //there are 2 ides one from the cookine and one from the route request 
+    //there are 2 id's one from the cookie and one from the route request 
     //need to match both of them
 
     if(req.user.id!=req.params.userId)
